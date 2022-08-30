@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 20px ;
+  width: 85%;
+  background: lightgrey;
+  border: 1px solid lightgray;
+}
+table {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  align-items: center;
+  text-align: center;
+}
+table,
+th,
+td {
+  border: 1px solid;
+  border-collapse: collapse;
+}
+.home-one,.home-two{
+margin-bottom: 20px;
+}
+.h4{
+  margin-left: 10%;
+}
