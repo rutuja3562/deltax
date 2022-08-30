@@ -16,7 +16,7 @@ export const Home = () => {
     console.log(d);
     setData(d);
   };
-  //   console.log("data", data);
+
   const fetchData = async () => {
     const res = await fetch("http://localhost:5000/artist");
     const d = await res.json();
