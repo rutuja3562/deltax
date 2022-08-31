@@ -11,14 +11,14 @@ export const Home = () => {
     fetchData();
   }, []);
   const getData = async () => {
-    const res = await fetch("http://localhost:5000/songs");
+    const res = await fetch("htt://localhost:5000/songs");
     const d = await res.json();
     console.log(d);
     setData(d);
   };
 
   const fetchData = async () => {
-    const res = await fetch("http://localhost:5000/artist");
+    const res = await fetch("htt://localhost:5000/artist");
     const d = await res.json();
     console.log(d);
     setFetchdata(d.artist);
